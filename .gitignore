@@ -1,0 +1,13 @@
+# Entorno virtual
+env/
+.env
+
+# Ignorar todo el contenido dentro de Music y Playlists
+downloads/Music/*
+downloads/Playlists/*
+
+# Exceptuar archivos de mantenimiento para conservar las carpetas vacías en Git
+!downloads/Music/.gitkeep
+!downloads/Playlists/.gitkeep
+
+__pycache__
